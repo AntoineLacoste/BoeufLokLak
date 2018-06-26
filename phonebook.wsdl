@@ -248,7 +248,7 @@
   </binding>
   <service name="PhonebookService">
     <port name="PhonebookPort" binding="tns:PhonebookBinding">
-      <soap:address location="http://192.168.0.201/fcgi/ipbx_admin.fcgi"/>
+      <soap:address location="http://192.168.0.200/fcgi/ipbx_admin.fcgi"/>
     </port>
   </service>
   <message name="listIn">
